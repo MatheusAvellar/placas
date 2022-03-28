@@ -5,11 +5,40 @@
   <title>{{ title }}</title>
   <meta content="Matheus Avellar" name="author">
   <!-- <meta name="description" content=""> -->
+  <link rel="preconnect" href="https://rsms.me">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
 </head>
 <body>
+  <header>
+    <h1>Placas</h1>
+    <p>
+      Será que todas as placas criadas pelo CONTRAN realmente existem?
+      Isto é, será que existem placas especificadas no manual de trânsito
+      que não são usadas em lugar nenhum?
+    </p>
+    <p>
+      Este pequeno site busca colecionar fotografias de usos na vida real
+      de cada uma das placas listadas no manual; mais especificamente, as
+      placas de <b>Regulamentação</b> e de <b>Advertência</b>.
+      Os manuais podem ser encontrados
+      <a href="https://www.gov.br/infraestrutura/pt-br/assuntos/transito/noticias-senatran/manual-brasileiro-de-sinalizacao-de-transito-1">aqui</a>
+      ("Manual Brasileiro de Sinalização de Trânsito", volumes 1 e 2).
+    </p>
+  </header>
   <main>{{ content }}</main>
+  <footer>
+    <hr>
+    <p class="sign">
+      Feito com ♥︎&#xFE0E;<!--&#xFE0E;[Ref] stackoverflow.com/a/38452396/4824627-->
+      por Matheus Avellar<br>Rio de Janeiro, 2022
+    </p>
+    <p>
+      Tudo está disponível sob
+      <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>!
+    </p>
+  </footer>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </body>
 </html>

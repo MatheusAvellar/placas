@@ -5,6 +5,9 @@ layout: default.html
 
 <article>
   <h2>Regulamentação</h2>
+  <p>
+    Placas já encontradas (<b>{{ placas.R | size }}</b>&nbsp;/&nbsp;59?):
+  </p>
   <ul>
   {%- for placa in placas.R -%}
     <li>
@@ -18,7 +21,7 @@ layout: default.html
     </li>
   {%- endfor -%}
   </ul>
-  <hr>
+  <p>Placas ainda não encontradas:</p>
   <ul>
   {%- for placa in placas.R_total -%}
     <li>
@@ -32,8 +35,12 @@ layout: default.html
   {%- endfor -%}
   </ul>
 </article>
+<hr>
 <article>
   <h2>Advertência</h2>
+  <p>
+    Placas já encontradas: (<b>{{ placas.A | size }}</b>&nbsp;/&nbsp;69?)
+  </p>
   <ul>
   {%- for placa in placas.A -%}
     <li>
@@ -47,7 +54,7 @@ layout: default.html
     </li>
   {%- endfor -%}
   </ul>
-  <hr>
+  <p>Placas ainda não encontradas:</p>
   <ul>
   {%- for placa in placas.A_total -%}
     <li>
