@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Placas
 layout: default.html
 ---
 
