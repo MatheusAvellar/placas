@@ -21,7 +21,7 @@ layout: default.html
     </li>
   {%- endfor -%}
   </ul>
-  <p>Placas ainda não encontradas:</p>
+  <p>Placas ainda não fotografadas:</p>
   <ul>
   {%- for placa in placas.R_total -%}
     <li>
@@ -54,7 +54,7 @@ layout: default.html
     </li>
   {%- endfor -%}
   </ul>
-  <p>Placas ainda não encontradas:</p>
+  <p>Placas ainda não fotografadas:</p>
   <ul>
   {%- for placa in placas.A_total -%}
     <li>
